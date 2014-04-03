@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+	<body>
+		<div id="content">
+			
+			
+		</div>
+
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				var $title = "<h1>ROFL Restaurant</h1>";
+				var $pic   = "<img src='http://upload.wikimedia.org/wikipedia/commons/7/73/Roflcopter.gif'>";
+				var $copy  = "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit mollis felis ac mollis. Phasellus feugiat magna feugiat suscipit eleifend. Quisque suscipit magna nec condimentum lobortis. Ut venenatis massa sem, ac scelerisque enim feugiat cursus. Quisque eget massa in mi rutrum mollis. Curabitur eu justo vitae nibh lobortis ornare. Etiam mollis convallis volutpat. Proin semper leo nec felis vestibulum, nec pulvinar nunc imperdiet. Morbi venenatis, augue sed aliquet convallis, tortor quam volutpat lectus, a condimentum velit erat vel lectus. Cras ac nibh ac felis interdum volutpat. Duis sem est, dictum ut justo quis, blandit facilisis sem. Morbi mollis quam condimentum posuere vehicula. Nullam orci enim, dapibus sit amet varius non, lacinia faucibus diam.</p>";
+				var $content = $("div#content");
+
+				$content.append($title).append($pic).append($copy);
+			});
+		</script>
+	</body>
+</html>
